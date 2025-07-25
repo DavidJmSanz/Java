@@ -27,3 +27,13 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Ignorar configuración de IntelliJ
+.idea/
+*.iml
+
+# Ignorar archivos compilados
+*.class
+
+# Ignorar carpeta de salida (si usas 'out' o 'build')
+out/
