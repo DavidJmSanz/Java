@@ -1,6 +1,6 @@
 public class Ejercicio_Clasificacion_Notas {
     public static void main(String[] args) {
-        int nota = 10  ;
+        int nota = 4  ;
         String calificacion ;
 
       if (nota >= 0 && nota <= 10){
@@ -10,7 +10,7 @@ public class Ejercicio_Clasificacion_Notas {
               System.out.println("Notable");
           } else if (nota == 5 || nota == 6) {
               System.out.println("Aprobado");
-          } else if (nota <= 4 ) {
+          } else {
               System.out.println("Reprobado");
           }
       }
